@@ -1,0 +1,60 @@
+.header{
+    background-color: #56ab62;
+    display: flex;
+    position: fixed;
+    min-width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+}
+
+.header ul{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.header ul li{
+    margin: 5px 15px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.body{
+    background-color: #d1dad2;
+    background-image: url('../media/logo-b.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50vh 50vh;
+    padding-top: 60px;
+}
+
+.logo{
+    opacity: 0.2;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo img{
+    max-width: 30rem;
+    margin: 13% 37%;
+}
+
+.foodHeader{
+    color: #56ab62;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.section{
+    padding-top: 200px;
+    background: #56ab62;
+}
