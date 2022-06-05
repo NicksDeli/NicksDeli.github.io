@@ -2,7 +2,7 @@
     background-color: #d1dad2;
     background-image: url('../media/logo-b.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: relative;
     background-position: center;
     background-size: 50vh 50vh;
 }
