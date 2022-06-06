@@ -21,7 +21,6 @@
 }
 
 .footer {
-
     display: flex;
     max-height: 13vh;
 }
@@ -49,6 +48,9 @@ a:active {
 .footer ul li {
     color: #56ab62;
     font-size: 1.1rem;
+    margin-left: -40px;
+    margin-bottom: 5px;
+    display: block;
 }
 
 .menuBlock {
