@@ -2,7 +2,7 @@
     background-color: #d1dad2;
     background-image: url('../media/logo-b.png');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-size: 50vh 50vh;
 }
@@ -89,7 +89,7 @@ a:active {
         background-color: #d1dad2;
         background-image: url('../media/logo-b.png');
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-size: 35vh 35vh;
     }
