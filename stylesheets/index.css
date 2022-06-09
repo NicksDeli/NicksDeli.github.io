@@ -82,9 +82,7 @@ a:active {
     margin-right: 20px;
 }
 
-.yes{
-    color: black;
-}
+
 
 @media only screen and (max-width: 660px) {
     .body {
