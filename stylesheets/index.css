@@ -82,7 +82,9 @@ a:active {
     margin-right: 20px;
 }
 
-
+.menu-list ol span{
+    margin-right: -2px;
+}
 
 @media only screen and (max-width: 660px) {
     .body {
