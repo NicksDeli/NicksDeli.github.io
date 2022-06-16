@@ -80,6 +80,7 @@ a:active {
     display: block;
     float: right;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .menu-list ol span{
