@@ -62,7 +62,8 @@ a:active {
 }
 
 .menu-list h2 {
-    margin-left: 25px;
+    margin-left: 13px;
+    border-bottom: 2px solid #56ab62;
 }
 
 .menu-backgrounds {
@@ -72,7 +73,7 @@ a:active {
 
 .menu-list ul li{
     margin-left: -25px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     display: block;
 }
 
@@ -87,8 +88,8 @@ a:active {
     margin-right: -2px;
 }
 
-.desc li{
-    margin-right: -2px;
+.desc{
+    margin-left: -35px;
 }
 
 @media only screen and (max-width: 660px) {
