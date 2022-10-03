@@ -15,11 +15,6 @@
 
 .body{
     background-color: #d1dad2;
-    background-image: url('../images/logo-b.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 50vh 50vh;
 }
 
 * ul, ol {
@@ -67,7 +62,9 @@
 .footer{
     margin-top: 20px;
     background-color: #56ab62;
-
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .link{
@@ -88,17 +85,4 @@
     background-color: #dbe2dc;
     border: 2px solid #6ca574;
     border-radius: 0.8rem;
-}
-
-
-@media only screen and (max-width: 470px) {
-    .body {
-        background-color: #d1dad2;
-        background-image: url('../media/logo-b.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: 40vh 40vh;
-    }
-
 }
