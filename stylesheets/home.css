@@ -3,11 +3,9 @@
     margin-left: 0.01px;
 }
 .awa div{
-    border: 1px solid #56ab62;
+    border: 1px solid #397a42;
 }
-.mainframe {
-    margin-top: 20px;
-}
+
 .navtitle{
     color: #ffff;
     font-size: large;
@@ -35,7 +33,7 @@
 
 .menu-list h2 {
     margin: 13px;
-    border-bottom: 2px solid #56ab62;
+    border-bottom: 2px solid #25522b;
 }
 
 .menu-list ul li{
