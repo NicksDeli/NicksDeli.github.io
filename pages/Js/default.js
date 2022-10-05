@@ -1,3 +1,2 @@
-const items = {
-    banana : {price: 200,}
-}
+import e from './ewe.json'
+console.log(e)

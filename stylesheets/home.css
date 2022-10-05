@@ -2,9 +2,6 @@
     border: 2px solid #56ab62;
     margin-left: 0.01px;
 }
-.awa div{
-    border: 1px solid #397a42;
-}
 
 .navtitle{
     color: #ffff;
@@ -23,12 +20,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link{
+.descriptionSize{
+    font-size: large;
+}
+
+.info:visited,.info:link{
     color: #fbfffc;
     text-decoration: none;
 }
 
-a:hover{
+.info:hover{
     text-decoration:underline;
 }
 
