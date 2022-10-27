@@ -25,9 +25,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+* a{
+    text-decoration: none;
+}
+
 .menuBlock {
     border-style: solid;
-    border: 3px solid #56ab62;
+    border: 3px solid #6cc564;
     border-radius: 20px;
     max-height: 29vh;
     max-width: 26vh;
@@ -64,7 +68,7 @@
 }
 
 .link{
-    color: #d1dad2;
+    color: #ffff;
     font-size: large;
 }
 
@@ -73,8 +77,8 @@
 }
 
 .navbarbuttonStyle{
-    background-color: #56ab62;
-    border: #56ab62;
+    background-color: #6cc564;
+    border: #6cc564;
 }
 
 .dropdownStyle{
