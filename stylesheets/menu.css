@@ -3,7 +3,7 @@
     margin-left: 0.01px;
 }
 .awa div{
-    border: 1px solid #56ab62;
+    border: 1px solid #6cc564;
 }
 .mainframe {
     margin-top: 20px;
@@ -14,7 +14,11 @@
 }
 
 .body{
-    background-color: #d1dad2;
+    background-color: #ffffff;
+}
+
+.navbarStyle{
+    background-color: #6cc564;
 }
 
 * ul, ol {
@@ -39,7 +43,7 @@
 
 .menu-list h2 {
     margin: 13px;
-    border-bottom: 2px solid #56ab62;
+    border-bottom: 2px solid #6cc564;
 }
 
 .menu-list ul li{

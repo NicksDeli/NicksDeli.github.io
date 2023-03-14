@@ -1,0 +1,183 @@
+{
+    "Breakfast": {
+        "Bagel With Cream Cheese": {
+            "price": "7.00",
+            "vegan": false
+        },
+        "Scrambled Eggs": {
+            "price": "8.00",
+            "vegan": false
+        },
+        "Omelette": {
+            "price": "8.00",
+            "vegan": false
+        },
+        "Toast": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Nutella Croissant": {
+            "price": "3.50",
+            "vegan": false
+        },
+        "Espresso": {
+            "price": "2.00",
+            "vegan": false
+        },
+        "Café Con Leche": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Cappuccino": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Hot Chocolate": {
+            "price": "4.00",
+            "vegan": false
+        },
+        "Hot Tea": {
+            "price": "4.00",
+            "vegan": false
+        }
+    },
+
+    "Lunch": {
+        "Special Of The Day": {
+            "price": "11.00 - 15.00",
+            "vegan": false
+        },
+        "Soup Of The Day": {
+            "price": "5.00",
+            "vegan": false
+        },
+        "Grilled Chicken With Rice & Salad": {
+            "price": "11.00",
+            "vegan": false
+        },
+        "Grilled Salmon With Rice & Salad": {
+            "price": "14.00",
+            "vegan": false
+        },
+        "Grilled Beef With Rice & Salad": {
+            "price": "13.00",
+            "vegan": false
+        }   
+    },
+    
+    "Salads": {
+        "Tuna Salad": {
+            "price": "9.00",
+            "vegan": false
+        },
+        "Grilled Salmon Salad": {
+            "price": "14.00",
+            "vegan": false
+        },
+        "Grilled Chicken Salad": {
+            "price": "11.00",
+            "vegan": false
+        },
+        "Caesar Salad": {
+            "price": "9.00",
+            "vegan": false
+        }
+    },
+
+    "Beverages": {
+        "Sodas": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Bottle Of Water": {
+            "price": "1.50",
+            "vegan": false
+        },
+        "Sparkling Flavored Water": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Snapple": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Perrier": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Gatorade": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Red Bull": {
+            "price": "3.00",
+            "vegan": false
+        },
+        "Fresh Juice": {
+            "price": "8.00",
+            "vegan": false
+        },
+        "Smoothie (2 ingredients)": {
+            "price": "8.00",
+            "vegan": false
+        }
+    },
+
+    "Empanadas": {
+        "Beef Empanada": {
+            "price": "5.00",
+            "vegan": false
+        },
+        "Chicken Empanada": {
+            "price": "5.00",
+            "vegan": false
+        },
+        "Shrimp & Cheese Empanada": {
+            "price": "5.00",
+            "vegan": false
+        },
+        "Ham & Cheese Empanada": {
+            "price": "4.50",
+            "vegan": false
+        },
+        "Spinach & Cream Cheese Empanada": {
+            "price": "4.50",
+            "vegan": false
+        },
+        "Mushroom & Cream Cheese Empanada": {
+            "price": "4.50",
+            "vegan": false
+        },
+        "Cheese Empanada": {
+            "price": "4.00",
+            "vegan": false
+        }
+    },
+
+    "Wraps & Sandwiches": {
+        "Grilled Salmon": {
+            "price": "14.00",
+            "vegan": false
+        },
+        "Grilled Chicken": {
+            "price": "11.00",
+            "vegan": false
+        },
+        "Grilled Beef": {
+            "price": "13.00",
+            "vegan": false
+        },
+        "Grilled Turkey & Cheese": {
+            "price": "8.00",
+            "vegan": false
+        },
+        "Tuna Salad": {
+            "price": "9.00",
+            "vegan": false
+        },
+        "Tuna Melt": {
+            "price": "9.00",
+            "vegan": false
+        }
+    }
+}
