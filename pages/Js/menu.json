@@ -124,31 +124,31 @@
     },
 
     "Empanadas": {
-        "Beef Empanada": {
+        "Beef": {
             "price": "5.00",
             "vegan": false
         },
-        "Chicken Empanada": {
+        "Chicken": {
             "price": "5.00",
             "vegan": false
         },
-        "Shrimp & Cheese Empanada": {
+        "Shrimp & Cheese": {
             "price": "5.00",
             "vegan": false
         },
-        "Ham & Cheese Empanada": {
+        "Ham & Cheese": {
             "price": "4.50",
             "vegan": false
         },
-        "Spinach & Cream Cheese Empanada": {
+        "Spinach & Cream Cheese": {
             "price": "4.50",
             "vegan": false
         },
-        "Mushroom & Cream Cheese Empanada": {
+        "Mushroom & Cream Cheese": {
             "price": "4.50",
             "vegan": false
         },
-        "Cheese Empanada": {
+        "Cheese": {
             "price": "4.00",
             "vegan": false
         }
