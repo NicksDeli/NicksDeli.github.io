@@ -2,7 +2,6 @@ body {
     background-color: #f0fff0;
     /* Pastel Green background */
     font-family: Arial, sans-serif;
-            overflow-x: hidden;
 }
 
 .navbar {
@@ -58,18 +57,13 @@ body {
     font-size: 24px;
 }
 
-.container {
-    padding: 40px 0;
-}
-
 .menu-section {
     background-color: #c5e1a5;
     /* Light Green menu section */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+
 }
 
 .menu-title {
