@@ -179,5 +179,27 @@
             "price": "9.00",
             "vegan": false
         }
+    },
+    "Sweets":{
+    	"Chocolate Croissant": {
+            "price": "3.50",
+            "vegan": false
+        },
+            	"Nutella Croissant": {
+            "price": "3.50",
+            "vegan": false
+        },
+            	"Apple & Almond Pastry": {
+            "price": "3.50",
+            "vegan": false
+        },
+            	"Guava Pastry": {
+            "price": "3.50",
+            "vegan": false
+        },
+            	"Guava & Cheese Pastry": {
+            "price": "3.50",
+            "vegan": false
+        }
     }
 }
