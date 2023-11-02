@@ -1,32 +1,74 @@
-const data = await fetch('./Js/menu.json').then(res => res.json());
+const d = "./Js/menu.json"
 
-function appendSubTitle(tag,parent,content,id,classAs){
-    const CreateElmnt = document.createElement(tag);
-    CreateElmnt.innerHTML = content;
-    CreateElmnt.id = id
-    CreateElmnt.classList.add(classAs);
-    parent.appendChild(CreateElmnt);
-    return CreateElmnt;
-}
+document.addEventListener("DOMContentLoaded", function () {
+    // Fetch the JSON data
+    fetch(d)
+        .then(response => response.json())
+        .then(data => {
+            const menuContainer = document.getElementById("menu-container");
 
-for (const [key, value] of Object.entries(data)) {
+            // Loop through the JSON data
+            for (const category in data) {
+                if (data.hasOwnProperty(category)) {
+                    const categoryData = data[category];
 
-    const mainSquare = document.createElement("div");
-    mainSquare.classList.add('col-sm-10', 'col-md-6', 'col-lg-5', 'col-xl-4', 'frame', 'menu-list');
+                    // Create a column for the category
+                    const col = document.createElement("div");
+                    col.className = "col-md-4";
 
-    appendSubTitle("h2",mainSquare,key);
-    const mainFrame = appendSubTitle("ul",mainSquare,'','breakfast','menu-backgrounds');
+                    // Create the menu section for the category
+                    const menuSection = document.createElement("div");
+                    menuSection.className = "menu-section";
 
+                    // Create the menu title (category name)
+                    const menuTitle = document.createElement("h2");
+                    menuTitle.className = "menu-title";
+                    menuTitle.textContent = category;
 
-    for (const [name, content] of Object.entries(value)) {
-        const item = document.createElement('li');
-        item.innerHTML = name;
-        mainFrame.appendChild(item);
+                    // Create the menu list (ul)
+                    const menuList = document.createElement("ul");
+                    menuList.className = "menu-list";
 
-        const price = document.createElement('span');
-        price.innerHTML = '$'+content.price;
-        item.appendChild(price);
-    }
+                    // Loop through the items in the category
+                    for (const item in categoryData) {
+                        if (categoryData.hasOwnProperty(item)) {
+                            const menuItem = document.createElement("li");
+                            menuItem.className = "menu-item";
 
-    document.getElementById("menuHolder").appendChild(mainSquare);
-}
+                            // Extract the item's price from the JSON data
+                            const itemData = categoryData[item];
+                            const itemPrice = itemData.price;
+
+                            // Create the item name span with class "item-name"
+                            const itemNameSpan = document.createElement("span");
+                            itemNameSpan.className = "item-name";
+                            itemNameSpan.textContent = item;
+
+                            // Create the item price span with class "item-price"
+                            const itemPriceSpan = document.createElement("span");
+                            itemPriceSpan.className = "item-price";
+                            itemPriceSpan.textContent = `$${itemPrice}`;
+
+                            // Append the item name and price spans to the menu item
+                            menuItem.appendChild(itemNameSpan);
+                            menuItem.appendChild(itemPriceSpan);
+
+                            // Append the item to the menu list
+                            menuList.appendChild(menuItem);
+                        }
+                    }
+
+                    // Assemble the menu section
+                    menuSection.appendChild(menuTitle);
+                    menuSection.appendChild(menuList);
+
+                    // Assemble the column
+                    col.appendChild(menuSection);
+
+                    // Append the column to the menu container
+                    menuContainer.appendChild(col);
+                }
+            }
+        })
+        .catch(error => console.error("Error fetching JSON data: ", error));
+});

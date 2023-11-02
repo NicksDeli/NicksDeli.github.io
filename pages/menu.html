@@ -2,36 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick's Deli</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../images/site.webmanifest">
     <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="stylesheet" href="/stylesheets/menu.css">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/mainPage.css">
 </head>
 
-<body class="body">
-    <div id="body" class="bg-image" style="background-image: url('../images/logo-b.png');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center;
-    background-size: 50vh 50vh;">
-        <script src="./Js/navbar.js"></script>
-        <script src="./Js/menuFormatting.js" type="module"></script>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="information.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="container mainframe"><div class="row g-1 awa" id="menuHolder"></div></div>
-        <div class="footer"></div>
+    <div class="jumbotron">
+        <h1>Welcome to Nick's Deli</h1>
+        <p>We serve delicious food for breakfast, lunch, and more. Explore our menu and discover your favorites.</p>
+        <a class="btn btn-primary btn-lg" href="information.html">View Store Hours</a>
     </div>
-    <h6 style="text-align: center;">Prices might change depending on food availability.</h6>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <div class="container"><div class="row" id="menu-container"></div></div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>Prices in store might change depending on availability.</p>
+            <p>&copy; 2023 Nick's Deli. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="./Js/menuFormatting.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

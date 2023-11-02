@@ -1,0 +1,107 @@
+body {
+    background-color: #f0fff0;
+    /* Pastel Green background */
+    font-family: Arial, sans-serif;
+            overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #a0d762;
+    /* Light Green navbar */
+}
+
+
+.nav-link {
+    color: #1f1f1f !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #a0d762;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: #c5e1a5;
+    /* Light Green Jumbotron */
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #8bc34a;
+    /* Light Green button */
+    border-color: #8bc34a;
+    font-size: 24px;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+.menu-section {
+    background-color: #c5e1a5;
+    /* Light Green menu section */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #151515;
+    text-decoration: underline #8bc34a;
+        /* Change color, style, and thickness */
+
+        /* Change the underline thickness */
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+        margin: 10px 0;
+            font-size: 18px;
+}
+
+/* Style for item name */
+.item-name {
+    flex: 1;
+    text-align: left;
+}
+
+/* Style for item price */
+.item-price {
+    text-align: right;
+}
